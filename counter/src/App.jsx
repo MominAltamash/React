@@ -7,11 +7,19 @@ function App() {
 
 
   function addCounter() {
-    setCounter(counter + 1)
+    if(counter < 20) {
+      setCounter(counter + 1)
+    } else {
+      setCounter(counter)
+    }
   }
 
   function decCounter() {
-    setCounter(counter - 1)
+    if(counter >0) {
+      setCounter(counter - 1)
+    } else {
+      setCounter(counter)
+    }
   }
 
   return (
