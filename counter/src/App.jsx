@@ -8,7 +8,17 @@ function App() {
 
   function addCounter() {
     if(counter < 20) {
-      setCounter(counter + 1)
+      // increase only one value
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+
+      // increase by 4 or increase 4 times
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter((prevCounter) => prevCounter + 1)
     } else {
       setCounter(counter)
     }
