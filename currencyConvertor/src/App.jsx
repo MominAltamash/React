@@ -25,7 +25,7 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                background: "#000",
+                background: "#eee",
             }}
         >
             <div className="w-full">
