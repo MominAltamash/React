@@ -1,5 +1,6 @@
-import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import Home from './Home/Home'
+import About from './About/About'
+import Footer from './footer/footer'
 
-export {Header, Footer, Home}
+export {Header, Home, About, Footer}
